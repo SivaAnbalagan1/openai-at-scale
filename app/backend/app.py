@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 from azure.identity import DefaultAzureCredential
 from approaches.chatreadretrieveread import ChatReadRetrieveReadApproach
 from dotenv import load_dotenv
-
+#test
 env_path = os.path.join(os.path.dirname(__file__), '.env')
 load_dotenv(env_path, verbose=True, override=True)
 
